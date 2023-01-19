@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Open+Sans&family=Poppins:wght@700&family=Work+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common style */
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: gray;
+}
+
+header,
+footer {
+    background-image: linear-gradient(to right, rgba(27, 27, 254, 0.599), #ba00fe);
+    color: white;
+}
+
+.round-img img {
+    margin-top: -50px;
+}
+
+.card>img {
+    height: 100%;
+    width: 100%;
+}
